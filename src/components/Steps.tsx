@@ -31,7 +31,7 @@ const Steps = () => {
         const isCompleted = STEPS.slice(index + 1).some((step) =>
           pathname.endsWith(step.url)
         );
-        const imgPath = `/snake-${index + 1}.png`;
+        const imgPath = `/panda${index + 1}.png`;
 
         return (
           <li key={step.name} className="relative overflow-hidden lg:flex-1">
@@ -56,7 +56,7 @@ const Steps = () => {
                 <span className="flex-shrink-0">
                   <img
                     src={imgPath}
-                    alt="snake images"
+                    alt="panda images"
                     className={cn(
                       "flex h-20 w-20 object-contain items-center justify-center",
                       {
