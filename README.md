@@ -2,6 +2,10 @@
 
 ## Description
 
+Live version: https://phone-case-lemon.vercel.app
+
+## Description
+
 Create custom high-quality phone cases in seconds
 
 ## Prerequisites
